@@ -8,7 +8,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:15:30',
-    video: 'videos/leopold/01.leopold_i_zolotaya_rybka.mp4',
+    video: '/videos/leopold/01.leopold_i_zolotaya_rybka.mp4',
     thumbnail: '/thumbnails/01.leopold_i_zolotaya_rybka.jpg',
   },
 ]

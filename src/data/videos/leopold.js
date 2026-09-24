@@ -4,7 +4,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:15:30',
-    video: 'videos/leopold/01.leopold_i_zolotaya_rybka.mp4',
+    video: '/videos/leopold/01.leopold_i_zolotaya_rybka.mp4',
     thumbnail: '/thumbnails/01.leopold_i_zolotaya_rybka.jpg',
   },
   {
@@ -12,7 +12,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:10:04',
-    video: 'videos/leopold/02.mest_kota_leopolda.mp4',
+    video: '/videos/leopold/02.mest_kota_leopolda.mp4',
     thumbnail: '/thumbnails/02.mest_kota_leopolda.jpg',
   },
   {
@@ -20,7 +20,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:06:57',
-    video: 'videos/leopold/03.televizor_kota_leopolda.mp4',
+    video: '/videos/leopold/03.televizor_kota_leopolda.mp4',
     thumbnail: '/thumbnails/03.televizor_kota_leopolda.jpg',
   },
   {
@@ -28,7 +28,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:09:29',
-    video: 'videos/leopold/04.progulka_kota_leopolda.mp4',
+    video: '/videos/leopold/04.progulka_kota_leopolda.mp4',
     thumbnail: '/thumbnails/04.progulka_kota_leopolda.jpg',
   },
   {
@@ -36,7 +36,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:09:57',
-    video: 'videos/leopold/05.den_rozhdenia_kota_leopolda.mp4',
+    video: '/videos/leopold/05.den_rozhdenia_kota_leopolda.mp4',
     thumbnail: '/thumbnails/05.den_rozhdenia_kota_leopolda.jpg',
   },
   {
@@ -44,7 +44,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:03:59',
-    video: 'videos/leopold/06.klad_kota_leopolda.mp4',
+    video: '/videos/leopold/06.klad_kota_leopolda.mp4',
     thumbnail: '/thumbnails/06.klad_kota_leopolda.jpg',
   },
   {
@@ -52,7 +52,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:09:45',
-    video: 'videos/leopold/07.leto_kota_leopolda.mp4',
+    video: '/videos/leopold/07.leto_kota_leopolda.mp4',
     thumbnail: '/thumbnails/07.leto_kota_leopolda.jpg',
   },
   {
@@ -60,7 +60,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:09:59',
-    video: 'videos/leopold/08.kot_leopold_vo_sne_i_nayavu.mp4',
+    video: '/videos/leopold/08.kot_leopold_vo_sne_i_nayavu.mp4',
     thumbnail: '/thumbnails/08.kot_leopold_vo_sne_i_nayavu.jpg',
   },
   {
@@ -68,7 +68,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:09:39',
-    video: 'videos/leopold/09.poliklinika_kota_leopolda.mp4',
+    video: '/videos/leopold/09.poliklinika_kota_leopolda.mp4',
     thumbnail: '/thumbnails/09.poliklinika_kota_leopolda.jpg',
   },
   {
@@ -76,7 +76,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:09:43',
-    video: 'videos/leopold/10.avtomobil_kota_leopolda.mp4',
+    video: '/videos/leopold/10.avtomobil_kota_leopolda.mp4',
     thumbnail: '/thumbnails/10.avtomobil_kota_leopolda.jpg',
   },
   {
@@ -84,7 +84,7 @@ export const leopold = [
     category: 'Леопольд',
     categoryId: 'leopold',
     duration: '00:03:46',
-    video: 'videos/leopold/11.leopold_interview.mp4',
+    video: '/videos/leopold/11.leopold_interview.mp4',
     thumbnail: '/thumbnails/11.leopold_interview.jpg',
   },
 ]
