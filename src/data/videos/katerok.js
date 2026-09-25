@@ -1,0 +1,42 @@
+export const katerok = [
+  {
+    title: 'В порту',
+    category: 'Катерок',
+    categoryId: 'katerok',
+    duration: '15:33',
+    video: '/videos/katerok/in-the-port.mp4',
+    thumbnail: '/thumbnails/in-the-port.jpg',
+  },
+  {
+    title: 'Как Львёнок и Черепаха пели песню',
+    category: 'Катерок',
+    categoryId: 'katerok',
+    duration: '08:44',
+    video: '/videos/katerok/kak-lvenok-i-cherepaha-peli-pesnyu.mp4',
+    thumbnail: '/thumbnails/kak-lvenok-i-cherepaha-peli-pesnyu.jpg',
+  },
+  {
+    title: 'Картинки с выставки',
+    category: 'Катерок',
+    categoryId: 'katerok',
+    duration: '06:35',
+    video: '/videos/katerok/kartinki-s-vystavki.mp4',
+    thumbnail: '/thumbnails/kartinki-s-vystavki.jpg',
+  },
+  {
+    title: 'Танцы кукол',
+    category: 'Катерок',
+    categoryId: 'katerok',
+    duration: '09:21',
+    video: '/videos/katerok/tancy-kukol.mp4',
+    thumbnail: '/thumbnails/tancy-kukol.jpg',
+  },
+  {
+    title: 'Детский альбом',
+    category: 'Катерок',
+    categoryId: 'katerok',
+    duration: '18:14',
+    video: '/videos/katerok/detsky-album.mp4',
+    thumbnail: '/thumbnails/detsky-album.jpg',
+  },
+]
