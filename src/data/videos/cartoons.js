@@ -6,7 +6,7 @@ export const cartoons = [
     duration: '16:08',
     video: '/videos/cartoons/big-secret-for-a-small-company.mp4',
     thumbnail: '/thumbnails/big-secret-for-a-small-company.jpg',
-  },  
+  },
   {
     title: 'Дед Мороз и лето',
     category: 'Мультики',
@@ -98,7 +98,7 @@ export const cartoons = [
   {
     title: 'Остров сокровищ. 1 серия',
     category: 'Приключения',
-    categoryId: 'cartoon-adventures',
+    categoryId: 'treasure-island',
     duration: '47:33',
     video: '/videos/treasure-island/treasure-island-1.mp4',
     thumbnail: '/thumbnails/treasure-island-1.jpg',
@@ -106,7 +106,7 @@ export const cartoons = [
   {
     title: 'Остров сокровищ. 2 серия',
     category: 'Приключения',
-    categoryId: 'cartoon-adventures',
+    categoryId: 'treasure-island',
     duration: '59:16',
     video: '/videos/treasure-island/treasure-island-2.mp4',
     thumbnail: '/thumbnails/treasure-island-2.jpg',

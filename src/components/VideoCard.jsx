@@ -9,13 +9,21 @@ function VideoCard({ video }) {
     setPreview(true);
 
     try {
-      await videoRef.current?.play();
+      // Видео уже есть в DOM, поэтому play() сработает без ошибок
+      if (videoRef.current) {
+        await videoRef.current.play();
+      }
     } catch (error) {
-      console.error(
-        'Не удалось воспроизвести preview:',
-        error,
-      );
+      console.error('Не удалось воспроизвести preview:', error);
     }
+    // try {
+    //   await videoRef.current?.play();
+    // } catch (error) {
+    //   console.error(
+    //     'Не удалось воспроизвести preview:',
+    //     error,
+    //   );
+    // }
   };
 
   const handleMouseLeave = () => {
@@ -40,14 +48,30 @@ function VideoCard({ video }) {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          {!preview && (
+          {/* Картинка скрывается, когда включен preview */}
+          <img
+            src={video.thumbnail}
+            alt={video.title}
+            style={{ display: preview ? 'none' : 'block' }}
+          />
+          {/* {!preview && (
             <img
               src={video.thumbnail}
               alt={video.title}
             />
-          )}
+          )} */}
 
-          {preview && (
+        {/* Видео присутствует в DOM всегда, но скрыто, пока preview === false */}
+          <video
+            ref={videoRef}
+            src={video.video}
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            style={{ display: preview ? 'block' : 'none', width: '100%', height: '100%', objectFit: 'cover' }}
+          />
+          {/* {preview && (
             <video
               ref={videoRef}
               src={video.video}
@@ -56,7 +80,7 @@ function VideoCard({ video }) {
               playsInline
               preload="metadata"
             />
-          )}
+          )} */}
 
           <span className="duration">
             {video.duration}

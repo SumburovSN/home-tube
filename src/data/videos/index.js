@@ -12,9 +12,13 @@ import { cheburashka } from './cheburashka.js';
 import { funtik } from './funtik.js';
 import { umka } from './umka.js';
 import { winnie_the_pooh } from './winnie-the-pooh.js';
+import { pushkin } from './pushkin.js';
+import { abvgdeyka } from './abvgdeyka.js';
+import { dunno } from './neznayka.js';
+import { alice } from './alice.js';
 
 import { createVideoCatalog } from '../videoUtils';
-import { cartoons } from './cartoons.js';
+
 
 export const videos = createVideoCatalog(
   kids_movie_fairy_tales,
@@ -31,4 +35,8 @@ export const videos = createVideoCatalog(
   umka,
   winnie_the_pooh,
   music_kids,
+  pushkin,
+  abvgdeyka,
+  dunno,
+  alice,
 );

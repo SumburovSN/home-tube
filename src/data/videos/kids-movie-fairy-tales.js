@@ -111,4 +111,12 @@ export const kids_movie_fairy_tales = [
       video: '/videos/ilia-muromez.mp4',
       thumbnail: '/thumbnails/ilia-muromez.jpg',
     },
+    {
+      title: 'Малыш и Карлсон',
+      category: 'Сказки',
+      categoryId: 'kids-movie-fairy-tales',
+      duration: '01:31:05',
+      video: '/videos/malysh-i-karlson.mp4',
+      thumbnail: '/thumbnails/malysh-i-karlson.jpg',
+    },
 ]

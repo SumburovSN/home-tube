@@ -4,8 +4,8 @@ export const umka = [
     category: 'Умка',
     categoryId: 'umka',
     duration: '09:41',
-    video: '/videos/umka/umka.mp4',
-    thumbnail: '/thumbnails/umka.jpg',
+    video: '/videos/umka/1.umka.mp4',
+    thumbnail: '/thumbnails/1.umka.jpg',
   },
   {
     title: '2. Умка ищет друга',

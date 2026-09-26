@@ -1,0 +1,42 @@
+export const pushkin = [
+  {
+    title: 'Сказка о рыбаке и рыбке',
+    category: 'Сказки Пушкина',
+    categoryId: 'pushkin',
+    duration: '30:11',
+    video: '/videos/pushkin/fishman-fish.mp4',
+    thumbnail: '/thumbnails/fishman-fish.jpg',
+  },
+  {
+    title: 'Сказка о золотом петушке',
+    category: 'Сказки Пушкина',
+    categoryId: 'pushkin',
+    duration: '29:58',
+    video: '/videos/pushkin/golden-cockerel.mp4',
+    thumbnail: '/thumbnails/golden-cockerel.jpg',
+  },
+  {
+    title: 'Сказка о попе и о работнике его Балде',
+    category: 'Сказки Пушкина',
+    categoryId: 'pushkin',
+    duration: '18:40',
+    video: '/videos/pushkin/pop-i-balda.mp4',
+    thumbnail: '/thumbnails/pop-i-balda.jpg',
+  },
+  {
+    title: 'Сказка о мёртвой царевне и о семи богатырях',
+    category: 'Сказки Пушкина',
+    categoryId: 'pushkin',
+    duration: '29:58',
+    video: '/videos/pushkin/princess-7-knights.mp4',
+    thumbnail: '/thumbnails/princess-7-knights.jpg',
+  },
+  {
+    title: 'Сказка о царе Салтане',
+    category: 'Сказки Пушкина',
+    categoryId: 'pushkin',
+    duration: '53:08',
+    video: '/videos/pushkin/Saltan.mp4',
+    thumbnail: '/thumbnails/Saltan.jpg',
+  },
+]

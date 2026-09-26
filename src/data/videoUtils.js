@@ -14,19 +14,6 @@ export function createVideoCatalog(
   return allVideos.sort(() => Math.random() - 0.5)
 }
 
-// export function createVideoCatalog(
-//   ...collections
-// ) {
-//   const allVideos = collections.flat();
-
-//   return allVideos.map(
-//     (video, index) => ({
-//       id: index + 1,
-//       ...video,
-//     }),
-//   );
-// }
-
 export function getRecommendations(
   video,
   videos,
