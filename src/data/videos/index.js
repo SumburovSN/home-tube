@@ -16,6 +16,10 @@ import { pushkin } from './pushkin.js';
 import { abvgdeyka } from './abvgdeyka.js';
 import { dunno } from './neznayka.js';
 import { alice } from './alice.js';
+import { chukovsky } from './chukovsky.js';
+import { mickey_mouse } from './mickey-mouse.js';
+import { maugli } from './maugli.js';
+import { masha_and_bear } from './masha-and-bear.js';
 
 import { createVideoCatalog } from '../videoUtils';
 
@@ -39,4 +43,8 @@ export const videos = createVideoCatalog(
   abvgdeyka,
   dunno,
   alice,
+  chukovsky,
+  mickey_mouse,
+  maugli,
+  masha_and_bear,
 );

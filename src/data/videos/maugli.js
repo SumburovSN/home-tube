@@ -1,0 +1,42 @@
+export const maugli = [
+  {
+    title: 'Маугли. 1 серия',
+    category: 'Приключения',
+    categoryId: 'cartoon-adventures',
+    duration: '18:59',
+    video: '/videos/maugli/maugli1.mp4',
+    thumbnail: '/thumbnails/maugli1.jpg',
+  },
+  {
+    title: 'Маугли. 2 серия',
+    category: 'Приключения',
+    categoryId: 'cartoon-adventures',
+    duration: '19:17',
+    video: '/videos/maugli/maugli2.mp4',
+    thumbnail: '/thumbnails/maugli2.jpg',
+  },
+  {
+    title: 'Маугли. 3 серия',
+    category: 'Приключения',
+    categoryId: 'cartoon-adventures',
+    duration: '19:02',
+    video: '/videos/maugli/maugli3.mp4',
+    thumbnail: '/thumbnails/maugli3.jpg',
+  },
+  {
+    title: 'Маугли. 4 серия',
+    category: 'Приключения',
+    categoryId: 'cartoon-adventures',
+    duration: '19:06',
+    video: '/videos/maugli/maugli4.mp4',
+    thumbnail: '/thumbnails/maugli4.jpg',
+  },
+  {
+    title: 'Маугли. 5 серия',
+    category: 'Приключения',
+    categoryId: 'cartoon-adventures',
+    duration: '19:11',
+    video: '/videos/maugli/maugli5.mp4',
+    thumbnail: '/thumbnails/maugli5.jpg',
+  },
+]

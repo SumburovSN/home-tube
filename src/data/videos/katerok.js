@@ -1,5 +1,13 @@
 export const katerok = [
   {
+    title: 'Катерок',
+    category: 'Катерок',
+    categoryId: 'katerok',
+    duration: '09:44',
+    video: '/videos/katerok/katerok.mp4',
+    thumbnail: '/thumbnails/katerok.jpg',
+  },
+  {
     title: 'В порту',
     category: 'Катерок',
     categoryId: 'katerok',
@@ -38,5 +46,13 @@ export const katerok = [
     duration: '18:14',
     video: '/videos/katerok/detsky-album.mp4',
     thumbnail: '/thumbnails/detsky-album.jpg',
+  },
+  {
+    title: 'Комаринская',
+    category: 'Катерок',
+    categoryId: 'katerok',
+    duration: '07:55',
+    video: '/videos/katerok/komarinskaya.mp4',
+    thumbnail: '/thumbnails/komarinskaya.jpg',
   },
 ]
