@@ -1,0 +1,42 @@
+export const prostokvashino = [
+  {
+    title: '1. Трое из Простоквашино',
+    category: 'Простоквашино',
+    categoryId: 'prostokvashino',
+    duration: '17:46',
+    video: '/videos/prostokvashino/1-troe-iz-prostokvashino.mp4',
+    thumbnail: '/thumbnails/1-troe-iz-prostokvashino.jpg',
+  },
+  {
+    title: '2. Каникулы в Простоквашино',
+    category: 'Простоквашино',
+    categoryId: 'prostokvashino',
+    duration: '17:58',
+    video: '/videos/prostokvashino/2-kanikuli-v-prostokvashino.mp4',
+    thumbnail: '/thumbnails/2-kanikuli-v-prostokvashino.jpg',
+  },
+  {
+    title: '3. Зима в Простоквашино',
+    category: 'Простоквашино',
+    categoryId: 'prostokvashino',
+    duration: '15:44',
+    video: '/videos/prostokvashino/3-zima-v-prostokvashino.mp4',
+    thumbnail: '/thumbnails/3-zima-v-prostokvashino.jpg',
+  },
+  {
+    title: 'Бобик в гостях у Барбоса',
+    category: 'Мультики',
+    categoryId: 'prostokvashino',
+    duration: '08:39',
+    video: '/videos/prostokvashino/bobik-v-gostjah-u-barbosa.mp4',
+    thumbnail: '/thumbnails/bobik-v-gostjah-u-barbosa.jpg',
+  },
+  {
+    title: 'Приключения Васи Куролесова',
+    category: 'Мультики',
+    categoryId: 'prostokvashino',
+    duration: '25:04',
+    video: '/videos/prostokvashino/prikljuchenija-vasi-kurolesova.mp4',
+    thumbnail: '/thumbnails/prikljuchenija-vasi-kurolesova.jpg',
+  },
+]

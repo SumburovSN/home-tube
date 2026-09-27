@@ -1,0 +1,34 @@
+export const movies = [
+  {
+    title: 'Не бойся! Я с тобой',
+    category: 'Кино',
+    categoryId: 'movies',
+    duration: '02:24:10',
+    video: '/videos/movies/ne-bojsia.mp4',
+    thumbnail: '/thumbnails/ne-bojsia.jpg',
+  },
+  {
+    title: 'Приключения Али-Бабы',
+    category: 'Кино',
+    categoryId: 'movies',
+    duration: '02:09:44',
+    video: '/videos/movies/ali-baba.mp4',
+    thumbnail: '/thumbnails/ali-baba.jpg',
+  },
+  {
+    title: 'Сказ про Федота-стрельца удалого молодца',
+    category: 'Кино',
+    categoryId: 'movies',
+    duration: '55:28',
+    video: '/videos/movies/skaz-pro-fedota.mp4',
+    thumbnail: '/thumbnails/skaz-pro-fedota.jpg',
+  },
+  {
+    title: 'Сказ про Егора, царёву опору, сына Федота-стрельца удалого молодца',
+    category: 'Кино',
+    categoryId: 'movies',
+    duration: '01:11:43',
+    video: '/videos/movies/skaz-pro-egora.mp4',
+    thumbnail: '/thumbnails/skaz-pro-egora.jpg',
+  },
+]

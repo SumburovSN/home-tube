@@ -260,6 +260,14 @@ export const categories = [
     parentId: 'kids-movies',
   },
 
+  {
+    id: 'movies',
+    title: 'Кино',
+    icon: '🎬',
+    type: 'movie',
+    parentId: null,
+  },
+
   // =========================
   // МУЗЫКА
   // =========================

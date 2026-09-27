@@ -20,6 +20,8 @@ import { chukovsky } from './chukovsky.js';
 import { mickey_mouse } from './mickey-mouse.js';
 import { maugli } from './maugli.js';
 import { masha_and_bear } from './masha-and-bear.js';
+import { prostokvashino } from './prostokvashino.js';
+import { movies } from './movies.js'
 
 import { createVideoCatalog } from '../videoUtils';
 
@@ -47,4 +49,6 @@ export const videos = createVideoCatalog(
   mickey_mouse,
   maugli,
   masha_and_bear,
+  prostokvashino,
+  movies,
 );
