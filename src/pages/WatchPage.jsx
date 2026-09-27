@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { videos } from '../data/videos/index';
 import { getRecommendations } from '../data/videoUtils';
+import VideoCard from '../components/VideoCard';
 
 function WatchPage() {
   const { id } = useParams();
@@ -76,17 +77,21 @@ function WatchPage() {
 
       <aside className="recommendations">
         <h2>Похожие видео</h2>
-        {recommendations.map((item) => (
-          <Link key={item.id} to={`/watch/${item.id}`} className="recommendation">
-            <div className="recommendation-thumbnail">
-              <video src={item.video} muted preload="metadata" />
-              <span>{item.duration}</span>
-            </div>
-            <div>
-              <h3>{item.title}</h3>
-              <p>{item.category}</p>
-            </div>
-          </Link>
+        {recommendations.map((video) => (
+          <VideoCard
+            key={video.id}
+            video={video}
+          />
+          // <Link key={item.id} to={`/watch/${item.id}`} className="recommendation">
+          //   <div className="recommendation-thumbnail">
+          //     <video src={item.video} muted preload="metadata" />
+          //     <span>{item.duration}</span>
+          //   </div>
+          //   <div>
+          //     <h3>{item.title}</h3>
+          //     <p>{item.category}</p>
+          //   </div>
+          // </Link>
         ))}
       </aside>
     </main>
