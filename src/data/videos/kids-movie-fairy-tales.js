@@ -125,7 +125,7 @@ export const kids_movie_fairy_tales = [
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:21:50',
       video: '/videos/cinderella.mp4',
-      thumbnail: '/thumbnails/cinderella.jpg',
+      thumbnail: '/thumbnails/cinderella-film.jpg',
     },
     {
       title: 'Мария Мирабелла',
