@@ -25,9 +25,11 @@ export function getRecommendations(
       item.id !== video.id,
   );
 
+  const recommendations_max_length = 20
+
   // Если уже достаточно рекомендаций
-  if (recommendations.length >= 10) {
-    return recommendations.slice(0, 10);
+  if (recommendations.length >= recommendations_max_length) {
+    return recommendations.slice(0, recommendations_max_length);
   }
 
   // 2. Находим текущую категорию
@@ -69,7 +71,7 @@ export function getRecommendations(
     shuffled.slice(0, 5);
 
   return [
-    ...recommendations.slice(0, 10),
+    ...recommendations.slice(0, recommendations_max_length),
     ...recommendationAdditional,
   ];
 }

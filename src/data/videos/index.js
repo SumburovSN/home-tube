@@ -23,6 +23,7 @@ import { masha_and_bear } from './masha-and-bear.js';
 import { prostokvashino } from './prostokvashino.js';
 import { movies } from './movies.js';
 import { avatar } from './avatar.js';
+import { nature } from './nature.js';
 
 import { createVideoCatalog } from '../videoUtils';
 
@@ -53,4 +54,5 @@ export const videos = createVideoCatalog(
   prostokvashino,
   movies,
   avatar,
+  nature,
 );

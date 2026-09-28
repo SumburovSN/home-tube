@@ -33,3 +33,16 @@ export function getCategoryAndDescendants(
 
   return result;
 }
+
+export function getCategoryIcon(
+  categoryId,
+) {
+  // console.log(categoryId)
+  
+  const category = categories.find(
+    (category) =>
+      category.id === categoryId,
+  );
+
+  return category.icon;
+}

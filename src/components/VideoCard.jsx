@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { getCategoryIcon } from '../data/categoryUtils';
 
 function VideoCard({ video }) {
   const videoRef = useRef(null);
@@ -15,15 +16,7 @@ function VideoCard({ video }) {
       }
     } catch (error) {
       console.error('Не удалось воспроизвести preview:', error);
-    }
-    // try {
-    //   await videoRef.current?.play();
-    // } catch (error) {
-    //   console.error(
-    //     'Не удалось воспроизвести preview:',
-    //     error,
-    //   );
-    // }
+    }    
   };
 
   const handleMouseLeave = () => {
@@ -54,12 +47,6 @@ function VideoCard({ video }) {
             alt={video.title}
             style={{ display: preview ? 'none' : 'block' }}
           />
-          {/* {!preview && (
-            <img
-              src={video.thumbnail}
-              alt={video.title}
-            />
-          )} */}
 
         {/* Видео присутствует в DOM всегда, но скрыто, пока preview === false */}
           <video
@@ -71,17 +58,6 @@ function VideoCard({ video }) {
             preload="metadata"
             style={{ display: preview ? 'block' : 'none', width: '100%', height: '100%', objectFit: 'cover' }}
           />
-          {/* {preview && (
-            <video
-              ref={videoRef}
-              src={video.video}
-              muted
-              loop
-              playsInline
-              preload="metadata"
-            />
-          )} */}
-
           <span className="duration">
             {video.duration}
           </span>
@@ -89,7 +65,7 @@ function VideoCard({ video }) {
 
         <div className="video-info">
           <div className="video-avatar">
-            {video.category[0]}
+            {getCategoryIcon(video.categoryId)}
           </div>
 
           <div>
