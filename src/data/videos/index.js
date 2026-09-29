@@ -24,6 +24,7 @@ import { prostokvashino } from './prostokvashino.js';
 import { movies } from './movies.js';
 import { avatar } from './avatar.js';
 import { nature } from './nature.js';
+import { karaoke } from './karaoke.js';
 
 import { createVideoCatalog } from '../videoUtils';
 
@@ -55,4 +56,5 @@ export const videos = createVideoCatalog(
   movies,
   avatar,
   nature,
+  karaoke,
 );

@@ -1,5 +1,29 @@
 export const kids_movie_fairy_tales = [
     {    
+      title: 'Буратино. 1 серия',
+      category: 'Сказки',
+      categoryId: 'kids-movie-fairy-tales',
+      duration: '01:05:14',
+      video: '/videos/buratino/buratino-1.mp4',
+      thumbnail: '/thumbnails/buratino-1.jpg',
+    },
+    {    
+      title: 'Буратино. 2 серия',
+      category: 'Сказки',
+      categoryId: 'kids-movie-fairy-tales',
+      duration: '01:08:08',
+      video: '/videos/buratino/buratino-2.mp4',
+      thumbnail: '/thumbnails/buratino-2.jpg',
+    },
+    {    
+      title: 'Мэри Поппинс, до свидания. 2 серия',
+      category: 'Сказки',
+      categoryId: 'kids-movie-fairy-tales',
+      duration: '01:14:41',
+      video: '/videos/mary-poppins/mary-poppins-2.mp4',
+      thumbnail: '/thumbnails/mary-poppins-2.jpg',
+    },
+    {    
       title: 'Мэри Поппинс, до свидания. 1 серия',
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',

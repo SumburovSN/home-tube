@@ -1,3 +1,5 @@
+import { music } from "./videos/music";
+
 export const categories = [
   // Главная
   {
@@ -278,5 +280,13 @@ export const categories = [
     icon: '🎵',
     type: 'music',
     parentId: null,
+  },
+
+  {
+    id: 'karaoke',
+    title: 'Караоке',
+    icon: '🎵',
+    type: 'music',
+    parentId: 'music',
   },
 ];

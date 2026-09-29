@@ -64,10 +64,10 @@ export const music = [
     thumbnail: '/thumbnails/german-kogda-cveli.jpg',
   },
   {    
-    title: 'Анна Герман - Когда цвели сады',
+    title: 'Анне Вески - Праздник снегопада',
     category: 'Музыка',
     categoryId: 'music',
-    duration: '04:33',
+    duration: '03:05',
     video: '/videos/music/german-kogda-cveli.mp4',
     thumbnail: '/thumbnails/german-kogda-cveli.jpg',
   },

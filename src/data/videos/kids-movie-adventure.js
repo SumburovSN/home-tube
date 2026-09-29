@@ -191,4 +191,28 @@ export const kids_movie_adventures = [
       video: '/videos/waves/black-sea8.mp4',
       thumbnail: '/thumbnails/black-sea8.jpg',
     },
+    {
+      title: 'Макар-следопыт. 1 серия',
+      category: 'Приключения',
+      categoryId: 'kids-movie-adventures',
+      duration: '01:03:37',
+      video: '/videos/makar/sledopit1.mp4',
+      thumbnail: '/thumbnails/sledopit1.jpg',
+    },
+    {
+      title: 'Макар-следопыт. 2 серия',
+      category: 'Приключения',
+      categoryId: 'kids-movie-adventures',
+      duration: '01:00:12',
+      video: '/videos/makar/sledopit2.mp4',
+      thumbnail: '/thumbnails/sledopit2.jpg',
+    },
+    {
+      title: 'Макар-следопыт. 3 серия',
+      category: 'Приключения',
+      categoryId: 'kids-movie-adventures',
+      duration: '01:04:02',
+      video: '/videos/makar/sledopit3.mp4',
+      thumbnail: '/thumbnails/sledopit3.jpg',
+    },
 ]

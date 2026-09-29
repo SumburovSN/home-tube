@@ -25,6 +25,11 @@ export function getRecommendations(
       item.id !== video.id,
   );
 
+  recommendations.sort(
+    (item, item_next) =>
+      item.id - item_next.id
+    );
+
   const recommendations_max_length = 20
 
   // Если уже достаточно рекомендаций
