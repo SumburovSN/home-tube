@@ -112,5 +112,20 @@ export const karaoke = [
         video: '/videos/karaoke/village-people-ymca.mp4',
         thumbnail: '/thumbnails/village-people-ymca.jpg',
     },
-
+    {
+        title: 'Караоке из советских кинофильмов. Часть 1',
+        category: 'Караоке',
+        categoryId: 'karaoke',
+        duration: '02:15:14',
+        video: '/videos/karaoke/karaoke-kino1.mp4',
+        thumbnail: '/thumbnails/karaoke-kino1.jpg',
+    },
+    {
+        title: 'Караоке из советских кинофильмов. Часть 2',
+        category: 'Караоке',
+        categoryId: 'karaoke',
+        duration: '02:29:13',
+        video: '/videos/karaoke/karaoke-kino2.mp4',
+        thumbnail: '/thumbnails/karaoke-kino2.jpg',
+    },
 ]
