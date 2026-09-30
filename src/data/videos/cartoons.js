@@ -263,4 +263,12 @@ export const cartoons = [
     video: '/videos/vera-i-anfisa/vera-i-anfisa3.mp4',
     thumbnail: '/thumbnails/vera-i-anfisa3.jpg',
   },
+  {
+    title: 'Ёжик в тумане',
+    category: 'Сказки',
+    categoryId: 'cartoons',
+    duration: '09:56',
+    video: '/videos/ezhik-v-tumane.mp4',
+    thumbnail: '/thumbnails/ezhik-v-tumane.jpg',
+  },
 ]

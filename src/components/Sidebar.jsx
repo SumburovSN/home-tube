@@ -103,6 +103,10 @@ function Sidebar({
   const movies = topLevelCategories.filter(
     (category) => category.type === 'movie',
   );
+  
+  const educational = topLevelCategories.filter(
+    (category) => category.type === 'educational',
+  );
 
   const music = topLevelCategories.filter(
     (category) => category.type === 'music',
@@ -121,6 +125,18 @@ function Sidebar({
             </div>
 
             {cartoons.map((category) =>
+              renderCategory(category),
+            )}
+          </>
+        )}
+
+        {educational.length > 0 && (
+          <>
+            <div className="menu-title">
+              МУЛЬТИКИ
+            </div>
+
+            {educational.map((category) =>
               renderCategory(category),
             )}
           </>

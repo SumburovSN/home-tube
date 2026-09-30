@@ -118,39 +118,6 @@ export const categories = [
     parentId: 'cartoons',
   },
 
-  // Мультики → Познавательные
-  {
-    id: 'educational',
-    title: 'Познавательные',
-    icon: '📚',
-    type: 'cartoon',
-    parentId: 'cartoons',
-  },
-
-  {
-    id: 'abvgdeyka',
-    title: 'Абвгдейка',
-    icon: '🔤',
-    type: 'cartoon',
-    parentId: 'educational',
-  },
-
-  {
-    id: 'sesame-street',
-    title: 'Улица Сезам',
-    icon: '🏠',
-    type: 'cartoon',
-    parentId: 'educational',
-  },
-
-  {
-    id: 'mickey-mouse',
-    title: 'Mickey Mouse',
-    icon: '🐭',
-    type: 'cartoon',
-    parentId: 'educational',
-  },
-
   // Мультики → Сказки
   {
     id: 'cartoon-fairy-tales',
@@ -226,13 +193,46 @@ export const categories = [
     parentId: 'fantasy',
   },
 
+  // Познавательные  
+  {
+    id: 'educationals',
+    title: 'Познавательные',
+    icon: '📚',
+    type: 'educational',
+    parentId: null,
+  },
+
+  {
+    id: 'abvgdeyka',
+    title: 'Абвгдейка',
+    icon: '🔤',
+    type: 'educational',
+    parentId: 'educationals',
+  },
+
+  {
+    id: 'sesame-street',
+    title: 'Улица Сезам',
+    icon: '🏠',
+    type: 'educational',
+    parentId: 'educationals',
+  },
+
+  {
+    id: 'mickey-mouse',
+    title: 'Mickey Mouse',
+    icon: '🐭',
+    type: 'educational',
+    parentId: 'educationals',
+  },
+
   // =========================
   // КИНО
   // =========================
 
   {
-    id: 'kids-movies',
-    title: 'Кино детское',
+    id: 'movies',
+    title: 'Кино',
     icon: '🎬',
     type: 'movie',
     parentId: null,
@@ -243,7 +243,7 @@ export const categories = [
     title: 'Сказки',
     icon: '🧙',
     type: 'movie',
-    parentId: 'kids-movies',
+    parentId: 'movies',
   },
 
   {
@@ -251,7 +251,7 @@ export const categories = [
     title: 'Приключения',
     icon: '🚀',
     type: 'movie',
-    parentId: 'kids-movies',
+    parentId: 'movies',
   },
 
   {
@@ -259,17 +259,9 @@ export const categories = [
     title: 'Природа',
     icon: '🌿',
     type: 'movie',
-    parentId: 'kids-movies',
+    parentId: 'movies',
   },
-
-  {
-    id: 'movies',
-    title: 'Кино',
-    icon: '🎬',
-    type: 'movie',
-    parentId: null,
-  },
-
+  
   // =========================
   // МУЗЫКА
   // =========================
