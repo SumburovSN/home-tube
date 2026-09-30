@@ -261,6 +261,14 @@ export const categories = [
     type: 'movie',
     parentId: 'movies',
   },
+
+  {
+    id: 'adult',
+    title: 'Для взрослых',
+    icon: '🎬',
+    type: 'movie',
+    parentId: 'movies',
+  },
   
   // =========================
   // МУЗЫКА

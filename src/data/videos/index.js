@@ -26,6 +26,7 @@ import { avatar } from './avatar.js';
 import { nature } from './nature.js';
 import { karaoke } from './karaoke.js';
 import { foreign_cartoons } from './foreign_cartoons.js';
+import { music } from './music.js';
 
 import { createVideoCatalog } from '../videoUtils';
 
@@ -59,4 +60,5 @@ export const videos = createVideoCatalog(
   nature,
   karaoke,
   foreign_cartoons,
+  music,
 );
