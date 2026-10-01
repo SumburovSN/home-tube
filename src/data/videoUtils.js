@@ -80,3 +80,25 @@ export function getRecommendations(
     ...recommendationAdditional,
   ];
 }
+
+export function getNextVideo(
+  video,
+  recommendations,
+) {
+
+  // поскольку видео нет в рекомендациях, ищем следующее после этого видео
+
+  const nextVideoId = recommendations.findIndex((item) =>
+    item.id > video.id);
+
+  console.log(nextVideoId, recommendations.length);
+
+  if (nextVideoId >= recommendations.length) {
+    nextVideoId = 0;
+  }
+  
+  const nextVideo = recommendations.at(nextVideoId);
+
+  return nextVideo;
+
+}
