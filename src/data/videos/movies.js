@@ -1,8 +1,8 @@
 export const movies = [
   {
     title: 'Не бойся! Я с тобой',
-    category: 'Кино',
-    categoryId: 'adult',
+    category: 'Приключения',
+    categoryId: 'adventures',
     duration: '02:24:10',
     video: '/videos/movies/ne-bojsia.mp4',
     thumbnail: '/thumbnails/ne-bojsia.jpg',
@@ -10,7 +10,7 @@ export const movies = [
   {
     title: 'Приключения Али-Бабы',
     category: 'Кино',
-    categoryId: 'adult',
+    categoryId: 'kids-movie-fairy-tales',
     duration: '02:09:44',
     video: '/videos/movies/ali-baba.mp4',
     thumbnail: '/thumbnails/ali-baba.jpg',
@@ -18,7 +18,7 @@ export const movies = [
   {
     title: 'Сказ про Федота-стрельца удалого молодца',
     category: 'Кино',
-    categoryId: 'adult',
+    categoryId: 'kids-movie-fairy-tales',
     duration: '55:28',
     video: '/videos/movies/skaz-pro-fedota.mp4',
     thumbnail: '/thumbnails/skaz-pro-fedota.jpg',
@@ -26,17 +26,33 @@ export const movies = [
   {
     title: 'Сказ про Егора, царёву опору, сына Федота-стрельца удалого молодца',
     category: 'Кино',
-    categoryId: 'adult',
+    categoryId: 'kids-movie-fairy-tales',
     duration: '01:11:43',
     video: '/videos/movies/skaz-pro-egora.mp4',
     thumbnail: '/thumbnails/skaz-pro-egora.jpg',
   },
   {
     title: 'Белое солнце пустыни',
-    category: 'Кино',
-    categoryId: 'adult',
+    category: 'Приключения',
+    categoryId: 'adventures',
     duration: '01:20:20',
     video: '/videos/movies/white_sun.webm',
     thumbnail: '/thumbnails/white_sun.jpg',
+  },
+  {
+    title: 'Служебный роман. 1 серия',
+    category: 'Мелодрамы',
+    categoryId: 'melodramas',
+    duration: '01:27:09',
+    video: '/videos/slugebny/roman1.webm',
+    thumbnail: '/thumbnails/roman1.jpg',
+  },
+  {
+    title: 'Служебный роман. 2 серия',
+    category: 'Мелодрамы',
+    categoryId: 'melodramas',
+    duration: '01:09:30',
+    video: '/videos/slugebny/roman2.webm',
+    thumbnail: '/thumbnails/roman2.jpg',
   },
 ]

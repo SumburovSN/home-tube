@@ -233,7 +233,7 @@ export const categories = [
   {
     id: 'movies',
     title: 'Кино',
-    icon: '🎬',
+    icon: '🎞️',
     type: 'movie',
     parentId: null,
   },
@@ -248,8 +248,8 @@ export const categories = [
 
   {
     id: 'kids-movie-adventures',
-    title: 'Приключения',
-    icon: '🚀',
+    title: 'Приключения: детское кино',
+    icon: '🚂',
     type: 'movie',
     parentId: 'movies',
   },
@@ -263,12 +263,28 @@ export const categories = [
   },
 
   {
-    id: 'adult',
-    title: 'Для взрослых',
-    icon: '🎬',
+    id: 'melodramas',
+    title: 'Мелодрамы',
+    icon: '💖',
     type: 'movie',
     parentId: 'movies',
   },
+
+  {
+    id: 'adventures',
+    title: 'Приключения',
+    icon: '🤠',
+    type: 'movie',
+    parentId: 'movies',
+  },
+
+  {
+    id: 'fantasy-film',
+    title: 'Фэнтези',
+    icon: '🐉',
+    type: 'movie',
+    parentId: 'movies',
+  },  
   
   // =========================
   // МУЗЫКА
