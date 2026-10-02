@@ -4,7 +4,7 @@ export const educational = [
     category: 'Улица Сезам',
     categoryId: 'sesame-street',
     duration: '08:00',
-    video: '/videos/sezam/sezam.mp4',
+    video: '/videos/sezam/sezam.webm',
     thumbnail: '/thumbnails/sezam.jpg',
   },
 ]
