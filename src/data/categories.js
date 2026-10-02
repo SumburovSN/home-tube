@@ -296,7 +296,7 @@ export const categories = [
 
   {
     id: 'series',
-    title: 'Сериал',
+    title: 'Сериалы',
     icon: '📺',
     type: 'movie',
     parentId: 'movies',

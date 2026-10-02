@@ -8,7 +8,7 @@ export const bremenskie = [
     thumbnail: '/thumbnails/1.bremenskie-muzykanty.jpg',
   },
   {
-    title: '1. По следам бременских музыкантов',
+    title: '2. По следам бременских музыкантов',
     category: 'Бременские',
     categoryId: 'bremenskie',
     duration: '18:33',
@@ -16,7 +16,7 @@ export const bremenskie = [
     thumbnail: '/thumbnails/2.po-sledam-bremenskih-muzykantov.jpg',
   },
   {
-    title: '1. Новые Бременские музыканты',
+    title: '3. Новые Бременские музыканты',
     category: 'Бременские',
     categoryId: 'bremenskie',
     duration: '55:58',

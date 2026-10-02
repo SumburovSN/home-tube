@@ -21,21 +21,13 @@ export function getRecommendations(
   // 1. Видео из той же категории
   const recommendations = videos.filter(
     (item) =>
-      item.categoryId === video.categoryId &&
-      item.id !== video.id,
+      item.categoryId === video.categoryId // само видео должно быть тоже в списке, и это облегчает логику getNextVideo()
   );
 
   recommendations.sort(
     (item, item_next) =>
       item.id - item_next.id
     );
-
-  const recommendations_max_length = 20
-
-  // Если уже достаточно рекомендаций
-  if (recommendations.length >= recommendations_max_length) {
-    return recommendations;
-  }
 
   // 2. Находим текущую категорию
   const currentCategory = categories.find(
@@ -71,9 +63,9 @@ export function getRecommendations(
     ...additionalCandidates,
   ].sort(() => Math.random() - 0.5);
 
-  // 6. Добавляем максимум 5
+  // 6. Добавляем максимум 10
   const recommendationAdditional =
-    shuffled.slice(0, 5);
+    shuffled.slice(0, 10);
 
   return [
     ...recommendations,
@@ -88,17 +80,16 @@ export function getNextVideo(
 
   // поскольку видео нет в рекомендациях, ищем следующее после этого видео
 
-  const nextVideoId = recommendations.findIndex((item) =>
-    item.id > video.id);
-
-  console.log(nextVideoId, recommendations.length);
+  let nextVideoId = recommendations.findIndex((item) =>
+    item.id == video.id) + 1;  
 
   if (nextVideoId >= recommendations.length) {
     nextVideoId = 0;
-  }
+  }  
   
   const nextVideo = recommendations.at(nextVideoId);
 
-  return nextVideo;
+  // console.log(nextVideoId, nextVideo);
 
+  return nextVideo;
 }
