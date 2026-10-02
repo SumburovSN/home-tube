@@ -279,12 +279,28 @@ export const categories = [
   },
 
   {
+    id: 'comedies',
+    title: 'Комедии',
+    icon: '🤡',
+    type: 'movie',
+    parentId: 'movies',
+  },
+
+  {
     id: 'fantasy-film',
     title: 'Фэнтези',
     icon: '🐉',
     type: 'movie',
     parentId: 'movies',
-  },  
+  },
+
+  {
+    id: 'series',
+    title: 'Сериал',
+    icon: '📺',
+    type: 'movie',
+    parentId: 'movies',
+  },
   
   // =========================
   // МУЗЫКА
@@ -301,8 +317,8 @@ export const categories = [
   {
     id: 'karaoke',
     title: 'Караоке',
-    icon: '🎵',
-    type: 'music',
-    parentId: 'music',
+    icon: '🎤',
+    type: 'karaoke',
+    parentId: null,
   },
 ];

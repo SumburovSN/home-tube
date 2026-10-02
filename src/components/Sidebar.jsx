@@ -112,6 +112,10 @@ function Sidebar({
     (category) => category.type === 'music',
   );
 
+  const karaoke = topLevelCategories.filter(
+    (category) => category.type === 'karaoke',
+  );
+
   return (
     <aside className="sidebar">
       <nav>
@@ -161,6 +165,18 @@ function Sidebar({
             </div>
 
             {music.map((category) =>
+              renderCategory(category),
+            )}
+          </>
+        )}
+
+        {karaoke.length > 0 && (
+          <>
+            <div className="menu-title">
+              КАРАОКЕ
+            </div>
+
+            {karaoke.map((category) =>
               renderCategory(category),
             )}
           </>
