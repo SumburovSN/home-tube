@@ -79,4 +79,12 @@ export const movies = [
     video: '/videos/brilliant_hand.webm',
     thumbnail: '/thumbnails/brilliant_hand.jpg',
   },
+  {
+    title: 'Труффальдино из Бергамо',
+    category: 'Комедия',
+    categoryId: 'comedies',
+    duration: '02:09:26',
+    video: '/videos/truffaldino.mp4',
+    thumbnail: '/thumbnails/truffaldino.jpg',
+  },
 ]
