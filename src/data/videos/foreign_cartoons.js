@@ -1,5 +1,13 @@
 export const foreign_cartoons = [
   {
+    title: 'Шрек',
+    category: 'Мультики',
+    categoryId: 'cartoon-adventures',
+    duration: '01:30:35',
+    video: '/videos/shrek/shrek.mp4',
+    thumbnail: '/thumbnails/shrek.jpg',
+  },
+  {
     title: 'Шрек 3',
     category: 'Мультики',
     categoryId: 'cartoon-adventures',

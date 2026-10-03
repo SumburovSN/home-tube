@@ -229,7 +229,7 @@ export const cartoons = [
     categoryId: 'cartoons',
     duration: '08:36',
     video: '/videos/kapitoshka/kapitoshka.mp4',
-    thumbnail: '/thumbnails/frozen-heart.jpg',
+    thumbnail: '/thumbnails/kapitoshka.jpg',
   },
   {
     title: 'Возвращение Капитошки',
