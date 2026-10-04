@@ -8,6 +8,14 @@ export const foreign_cartoons = [
     thumbnail: '/thumbnails/shrek.jpg',
   },
   {
+    title: 'Шрек 2',
+    category: 'Мультики',
+    categoryId: 'cartoon-adventures',
+    duration: '01:32:27',
+    video: '/videos/shrek/shrek2.mp4',
+    thumbnail: '/thumbnails/shrek2.jpg',
+  },
+  {
     title: 'Шрек 3',
     category: 'Мультики',
     categoryId: 'cartoon-adventures',

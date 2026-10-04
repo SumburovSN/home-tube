@@ -76,20 +76,23 @@ export function getRecommendations(
 export function getNextVideo(
   video,
   recommendations,
-) {
+) {  
 
-  // поскольку видео нет в рекомендациях, ищем следующее после этого видео
-
-  let nextVideoId = recommendations.findIndex((item) =>
-    item.id == video.id) + 1;  
-
-  if (nextVideoId >= recommendations.length) {
-    nextVideoId = 0;
-  }  
-  
+  const currentIndex = recommendations.findIndex((item) => item.id === video.id);
+  const nextVideoId = (currentIndex + 1) % recommendations.length;
   const nextVideo = recommendations.at(nextVideoId);
 
-  // console.log(nextVideoId, nextVideo);
-
   return nextVideo;
+}
+
+export function filterVideos(title, videos,) {
+  // Если массив пустой или не передан, сразу возвращаем пустой массив
+  if (!videos) return []; 
+  
+  // Приводим поисковый запрос к нижнему регистру один раз
+  const searchTitle = (title || '').toLowerCase(); 
+
+  return videos.filter((item) => 
+    item?.title?.toLowerCase().includes(searchTitle)
+  );
 }

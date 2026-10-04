@@ -226,6 +226,14 @@ export const categories = [
     parentId: 'educationals',
   },
 
+  {
+    id: 'want-to-know',
+    title: 'Киножурнал "Хочу всё знать"',
+    icon: '🧐',
+    type: 'educational',
+    parentId: 'educationals',
+  },
+
   // =========================
   // КИНО
   // =========================

@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
+import { useSearchParams } from 'react-router-dom'; // <--- Импортируем хук для URL
 
 import { videos } from '../data/videos/index';
 import { categories } from '../data/categories';
-import {
-  getCategoryAndDescendants,
-} from '../data/categoryUtils';
+import {getCategoryAndDescendants} from '../data/categoryUtils';
+import {filterVideos} from '../data/videoUtils';
 
 import VideoCard from '../components/VideoCard';
 import Sidebar from '../components/Sidebar';
@@ -12,11 +12,14 @@ import Sidebar from '../components/Sidebar';
 const BATCH_SIZE = 30; // Количество видео, подгружаемых за один раз
 
 function HomePage() {
-  const [selectedCategory, setSelectedCategory] = useState('all');
-  
+  const [selectedCategory, setSelectedCategory] = useState('all');  
   // Состояние для контроля количества отображаемых карточек
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
   const loadMoreTriggerRef = useRef(null);
+
+  // Получаем параметр search из URL (например: ?search=синий+трактор)
+  const [searchParams] = useSearchParams();
+  const searchQuery = searchParams.get('search') || '';
 
   // 1. Сначала фильтруем весь массив видео по выбранной категории
   const selectedCategoryIds =
@@ -24,22 +27,25 @@ function HomePage() {
       ? null
       : getCategoryAndDescendants(selectedCategory);
 
-  const filteredVideos =
+  const categoryFilteredVideos =
     selectedCategoryIds === null
       ? videos
       : videos.filter((video) =>
           selectedCategoryIds.includes(video.categoryId)
         );
+  
+  // 2. СВЕРХУ накладываем вашу функцию фильтрации по названию видео
+  const filteredVideos = filterVideos(searchQuery, categoryFilteredVideos);
 
   // СБРОС СЧЁТЧИКА: При смене категории возвращаем показ к первым 30 элементам
   useEffect(() => {
     setVisibleCount(BATCH_SIZE);
   }, [selectedCategory]);
 
-  // 2. Нарезаем отфильтрованные видео для текущего экрана (от 0 до visibleCount)
+  // 3. Нарезаем отфильтрованные видео для текущего экрана (от 0 до visibleCount)
   const videosToRender = filteredVideos.slice(0, visibleCount);
 
-  // 3. Отслеживаем появление триггера внизу страницы для подгрузки следующей пачки
+  // 4. Отслеживаем появление триггера внизу страницы для подгрузки следующей пачки
   useEffect(() => {
     const trigger = loadMoreTriggerRef.current;
     if (!trigger) return;
@@ -68,14 +74,17 @@ function HomePage() {
 
       <main className="content">
         <h2>
-          {currentCategory?.title ?? 'Мультики'}
+          {searchQuery ? `Результаты поиска: "${searchQuery}"` : (currentCategory?.title ?? 'Мультики')}
         </h2>
+        {/* <h2>
+          {currentCategory?.title ?? 'Мультики'}
+        </h2> */}
 
         {filteredVideos.length === 0 ? (
           <div className="empty-state">
             <div>🎬</div>
-            <h3>Пока здесь нет видео</h3>
-            <p>Добавь видео в эту категорию, и они появятся здесь.</p>
+            <h3>Ничего не найдено</h3>
+            <p>Попробуйте изменить поисковый запрос или выбрать другую категорию.</p>
           </div>
         ) : (
           <>
