@@ -23,4 +23,28 @@ export const potter = [
     video: '/videos/harry-potter/prisoner-azkaban.mp4',
     thumbnail: '/thumbnails/prisoner-azkaban.jpg',
   },
+  {
+    title: 'Гарри Поттер и Кубок Огня',
+    category: 'Фэнтези',
+    categoryId: 'fantasy-film',
+    duration: '02:37:19',
+    video: '/videos/harry-potter/goblet-fire.mp4',
+    thumbnail: '/thumbnails/goblet-fire.jpg',
+  },
+  {
+    title: 'Гарри Поттер и Орден Феникса',
+    category: 'Фэнтези',
+    categoryId: 'fantasy-film',
+    duration: '02:26:47',
+    video: '/videos/harry-potter/order-phoenix.mp4',
+    thumbnail: '/thumbnails/order-phoenix.jpg',
+  },
+  {
+    title: 'Гарри Поттер и Принц-Полукровка',
+    category: 'Фэнтези',
+    categoryId: 'fantasy-film',
+    duration: '02:26:47',
+    video: '/videos/harry-potter/half-blood.mp4',
+    thumbnail: '/thumbnails/half-blood.jpg',
+  },
 ]

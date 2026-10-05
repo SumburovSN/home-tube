@@ -87,4 +87,12 @@ export const movies = [
     video: '/videos/truffaldino.mp4',
     thumbnail: '/thumbnails/truffaldino.jpg',
   },
+  {
+    title: 'Иван Васильевич меняет профессию',
+    category: 'Комедия',
+    categoryId: 'comedies',
+    duration: '01:31:38',
+    video: '/videos/ivan-vasilievich.webm',
+    thumbnail: '/thumbnails/ivan-vasilievich.jpg',
+  },
 ]

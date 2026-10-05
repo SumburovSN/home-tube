@@ -228,7 +228,7 @@ export const categories = [
 
   {
     id: 'want-to-know',
-    title: 'Киножурнал "Хочу всё знать"',
+    title: 'Хочу всё знать',
     icon: '🧐',
     type: 'educational',
     parentId: 'educationals',
@@ -256,7 +256,7 @@ export const categories = [
 
   {
     id: 'kids-movie-adventures',
-    title: 'Приключения: детское кино',
+    title: 'Приключения',
     icon: '🚂',
     type: 'movie',
     parentId: 'movies',
@@ -280,7 +280,7 @@ export const categories = [
 
   {
     id: 'adventures',
-    title: 'Приключения',
+    title: 'Остросюжетное',
     icon: '🤠',
     type: 'movie',
     parentId: 'movies',
