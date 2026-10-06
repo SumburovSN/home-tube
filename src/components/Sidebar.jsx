@@ -116,6 +116,10 @@ function Sidebar({
     (category) => category.type === 'karaoke',
   );
 
+  const my = topLevelCategories.filter(
+    (category) => category.type === 'my',
+  );
+
   return (
     <aside className="sidebar">
       <nav>
@@ -182,11 +186,23 @@ function Sidebar({
           </>
         )}
 
+        {karaoke.length > 0 && (
+          <>
+            <div className="menu-title">
+              МОЁ
+            </div>
+
+            {my.map((category) =>
+              renderCategory(category),
+            )}
+          </>
+        )}
+
         <div className="menu-title">
           МОЁ
         </div>
 
-        <button className="menu-item">
+        {/* <button className="menu-item">
           <span className="menu-icon">
             ❤️
           </span>
@@ -194,7 +210,7 @@ function Sidebar({
           <span className="menu-label">
             Избранное
           </span>
-        </button>
+        </button> */}
 
         <button className="menu-item">
           <span className="menu-icon">

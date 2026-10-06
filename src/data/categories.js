@@ -329,4 +329,16 @@ export const categories = [
     type: 'karaoke',
     parentId: null,
   },
+
+  // =========================
+  // МОЁ
+  // =========================
+
+  {
+    id: 'my',
+    title: 'Моё',
+    icon: '❤️',
+    type: 'my',
+    parentId: null,
+  },
 ];

@@ -14,15 +14,7 @@ export const kids_movie_fairy_tales = [
       duration: '01:08:08',
       video: '/videos/buratino/buratino-2.mp4',
       thumbnail: '/thumbnails/buratino-2.jpg',
-    },
-    {    
-      title: 'Мэри Поппинс, до свидания. 2 серия',
-      category: 'Сказки',
-      categoryId: 'kids-movie-fairy-tales',
-      duration: '01:14:41',
-      video: '/videos/mary-poppins/mary-poppins-2.mp4',
-      thumbnail: '/thumbnails/mary-poppins-2.jpg',
-    },
+    },    
     {    
       title: 'Мэри Поппинс, до свидания. 1 серия',
       category: 'Сказки',
@@ -92,7 +84,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:19:17',
-      video: '/videos/city-of-craftsmen.mp4',
+      video: '/videos/movies-kids/city-of-craftsmen.mp4',
       thumbnail: '/thumbnails/city-of-craftsmen.jpg',
     },
     {
@@ -100,7 +92,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:23:10',
-      video: '/videos/mama.mp4',
+      video: '/videos/movies-kids/mama.mp4',
       thumbnail: '/thumbnails/mama.jpg',
     },
     {
@@ -108,7 +100,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:06:37',
-      video: '/videos/masha-vitja-adventures.mp4',
+      video: '/videos/movies-kids/masha-vitja-adventures.mp4',
       thumbnail: '/thumbnails/masha-vitja-adventures.jpg',
     },
     {
@@ -116,7 +108,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:18:50',
-      video: '/videos/morozko.mp4',
+      video: '/videos/movies-kids/morozko.mp4',
       thumbnail: '/thumbnails/morozko.jpg',
     },
     {
@@ -124,7 +116,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:20:24',
-      video: '/videos/varvara.mp4',
+      video: '/videos/movies-kids/varvara.mp4',
       thumbnail: '/thumbnails/varvara.jpg',
     },
     {
@@ -132,7 +124,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:20:24',
-      video: '/videos/ilia-muromez.mp4',
+      video: '/videos/movies-kids/ilia-muromez.mp4',
       thumbnail: '/thumbnails/ilia-muromez.jpg',
     },
     {
@@ -140,7 +132,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:31:05',
-      video: '/videos/malysh-i-karlson.mp4',
+      video: '/videos/movies-kids/malysh-i-karlson.mp4',
       thumbnail: '/thumbnails/malysh-i-karlson.jpg',
     },
     {
@@ -148,7 +140,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:21:50',
-      video: '/videos/cinderella.mp4',
+      video: '/videos/movies-kids/cinderella.mp4',
       thumbnail: '/thumbnails/cinderella-film.jpg',
     },
     {
@@ -172,7 +164,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '02:30:25',
-      video: '/videos/ne-pokidai.mp4',
+      video: '/videos/movies-kids/ne-pokidai.mp4',
       thumbnail: '/thumbnails/ne-pokidai.jpg',
     },
     {
@@ -180,7 +172,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:24:28',
-      video: '/videos/tutta-ludwig.mp4',
+      video: '/videos/movies-kids/tutta-ludwig.mp4',
       thumbnail: '/thumbnails/tutta-ludwig.jpg',
     },
     {
@@ -188,7 +180,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:06:24',
-      video: '/videos/tam-na.mp4',
+      video: '/videos/movies-kids/tam-na.mp4',
       thumbnail: '/thumbnails/tam-na.jpg',
     },
     {
@@ -196,7 +188,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:14:50',
-      video: '/videos/finist.mp4',
+      video: '/videos/movies-kids/finist.mp4',
       thumbnail: '/thumbnails/finist.jpg',
     },
     {
@@ -204,7 +196,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:20:47',
-      video: '/videos/cippolino.mp4',
+      video: '/videos/movies-kids/cippolino.mp4',
       thumbnail: '/thumbnails/cippolino.jpg',
     },
     {
@@ -212,7 +204,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:14:58',
-      video: '/videos/krivih-zerkal.mp4',
+      video: '/videos/movies-kids/krivih-zerkal.mp4',
       thumbnail: '/thumbnails/krivih-zerkal.jpg',
     },
     {
@@ -230,5 +222,29 @@ export const kids_movie_fairy_tales = [
       duration: '01:09:49',
       video: '/videos/peter/pen2.mp4',
       thumbnail: '/thumbnails/pen1.jpg',
+    },
+    {
+      title: 'После дождичка в четверг',
+      category: 'Сказки',
+      categoryId: 'kids-movie-fairy-tales',
+      duration: '01:14:30',
+      video: '/videos/movies-kids/posle-dogdichka.webm',
+      thumbnail: '/thumbnails/posle-dogdichka.jpg',
+    },
+    {
+      title: 'Раз, два - горе не беда',
+      category: 'Сказки',
+      categoryId: 'kids-movie-fairy-tales',
+      duration: '01:22:22',
+      video: '/videos/movies-kids/gore-ne-beda.mp4',
+      thumbnail: '/thumbnails/gore-ne-beda.jpg',
+    },
+    {
+      title: 'Тайна Снежной Королевы',
+      category: 'Сказки',
+      categoryId: 'kids-movie-fairy-tales',
+      duration: '02:16:12',
+      video: '/videos/movies-kids/secret-of-snow-queen.mp4',
+      thumbnail: '/thumbnails/secret-of-snow-queen.jpg',
     },
 ]

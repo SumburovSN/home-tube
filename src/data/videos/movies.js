@@ -76,7 +76,7 @@ export const movies = [
     category: 'Комедия',
     categoryId: 'comedies',
     duration: '01:38:55',
-    video: '/videos/brilliant_hand.webm',
+    video: '/videos/movies/brilliant_hand.webm',
     thumbnail: '/thumbnails/brilliant_hand.jpg',
   },
   {
@@ -84,7 +84,7 @@ export const movies = [
     category: 'Комедия',
     categoryId: 'comedies',
     duration: '02:09:26',
-    video: '/videos/truffaldino.mp4',
+    video: '/videos/movies/truffaldino.mp4',
     thumbnail: '/thumbnails/truffaldino.jpg',
   },
   {
@@ -92,7 +92,7 @@ export const movies = [
     category: 'Комедия',
     categoryId: 'comedies',
     duration: '01:31:38',
-    video: '/videos/ivan-vasilievich.webm',
+    video: '/videos/movies/ivan-vasilievich.webm',
     thumbnail: '/thumbnails/ivan-vasilievich.jpg',
   },
 ]

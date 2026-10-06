@@ -29,6 +29,7 @@ import { foreign_cartoons } from './foreign_cartoons.js';
 import { music } from './music.js';
 import { educational } from './educate.js';
 import { potter } from './potter.js';
+import { my } from './my.js';
 
 import { createVideoCatalog } from '../videoUtils';
 
@@ -65,4 +66,5 @@ export const videos = createVideoCatalog(
   music,
   educational,
   potter,
+  my,
 );
