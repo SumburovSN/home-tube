@@ -95,4 +95,12 @@ export const movies = [
     video: '/videos/movies/ivan-vasilievich.webm',
     thumbnail: '/thumbnails/ivan-vasilievich.jpg',
   },
+  {
+    title: 'Человек с бульвара Капуцинов',
+    category: 'Комедия',
+    categoryId: 'comedies',
+    duration: '01:33:27',
+    video: '/videos/movies/man-capuzin.webm',
+    thumbnail: '/thumbnails/man-capuzin.jpg',
+  },
 ]
