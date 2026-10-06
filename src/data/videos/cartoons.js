@@ -108,7 +108,7 @@ export const cartoons = [
     category: 'Приключения',
     categoryId: 'treasure-island',
     duration: '59:16',
-    video: '/videos/island/island-2.mp4',
+    video: '/videos/treasure/island-2.mp4',
     thumbnail: '/thumbnails/island-2.jpg',
   },
   {
