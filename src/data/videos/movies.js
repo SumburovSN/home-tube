@@ -103,4 +103,12 @@ export const movies = [
     video: '/videos/movies/man-capuzin.webm',
     thumbnail: '/thumbnails/man-capuzin.jpg',
   },
+  {
+    title: 'Двенадцатая ночь',
+    category: 'Комедия',
+    categoryId: 'comedies',
+    duration: '01:25:19',
+    video: '/videos/movies/12-night.mp4',
+    thumbnail: '/thumbnails/12-night.jpg',
+  },
 ]

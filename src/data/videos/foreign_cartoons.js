@@ -63,4 +63,20 @@ export const foreign_cartoons = [
     video: '/videos/cartoons/ice-age4.mp4',
     thumbnail: '/thumbnails/ice-age4.jpg',
   },
+  {
+    title: 'Золушка',
+    category: 'Мультики',
+    categoryId: 'cartoon-fairy-tales',
+    duration: '01:14:28',
+    video: '/videos/cartoons/cinderella-disney.mp4',
+    thumbnail: '/thumbnails/cinderella-disney.jpg',
+  },
+  {
+    title: 'Красавица и Чудовище',
+    category: 'Мультики',
+    categoryId: 'cartoon-fairy-tales',
+    duration: '01:31:45',
+    video: '/videos/cartoons/beauty-n-beast.mp4',
+    thumbnail: '/thumbnails/beauty-n-beast.jpg',
+  },
 ]

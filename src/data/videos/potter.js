@@ -47,4 +47,20 @@ export const potter = [
     video: '/videos/harry-potter/half-blood.mp4',
     thumbnail: '/thumbnails/half-blood.jpg',
   },
+  {
+    title: 'Гарри Поттер и Дары Смерти. Часть 1',
+    category: 'Фэнтези',
+    categoryId: 'fantasy-film',
+    duration: '02:26:05',
+    video: '/videos/harry-potter/deathly-hallows-1.mp4',
+    thumbnail: '/thumbnails/deathly-hallows-1.jpg',
+  },
+  {
+    title: 'Гарри Поттер и Дары Смерти. Часть 2',
+    category: 'Фэнтези',
+    categoryId: 'fantasy-film',
+    duration: '02:10:24',
+    video: '/videos/harry-potter/deathly-hallows-2.mp4',
+    thumbnail: '/thumbnails/deathly-hallows-2.jpg',
+  },
 ]

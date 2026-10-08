@@ -247,4 +247,20 @@ export const kids_movie_fairy_tales = [
       video: '/videos/movies-kids/secret-of-snow-queen.mp4',
       thumbnail: '/thumbnails/secret-of-snow-queen.jpg',
     },
+    {
+      title: 'Сказка о потерянном времени',
+      category: 'Сказки',
+      categoryId: 'kids-movie-fairy-tales',
+      duration: '01:15:39',
+      video: '/videos/movies-kids/lost-time.mkv',
+      thumbnail: '/thumbnails/lost-time.jpg',
+    },
+    {
+      title: 'Щелкунчик. Балет',
+      category: 'Сказки',
+      categoryId: 'kids-movie-fairy-tales',
+      duration: '01:47:07',
+      video: '/videos/movies-kids/nutcracker-ballet.webm',
+      thumbnail: '/thumbnails/nutcracker-ballet.jpg',
+    },
 ]
