@@ -207,4 +207,12 @@ export const kids_movie_adventures = [
       video: '/videos/makar/sledopit3.mp4',
       thumbnail: '/thumbnails/sledopit3.jpg',
     },
+    {
+      title: 'Каникулы Петрова и Васечкина обыкновенные и невероятные',
+      category: 'Приключения',
+      categoryId: 'kids-movie-adventures',
+      duration: '02:14:57',
+      video: '/videos/petrov-vasechkin/vacances.webm',
+      thumbnail: '/thumbnails/vacances.jpg',
+    },
 ]
