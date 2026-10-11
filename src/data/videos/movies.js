@@ -111,4 +111,20 @@ export const movies = [
     video: '/videos/movies/12-night.mp4',
     thumbnail: '/thumbnails/12-night.jpg',
   },
+  {
+    title: 'Обыкновенное чудо. 1 серия',
+    category: 'Сказка',
+    categoryId: 'melodramas',
+    duration: '01:08:50',
+    video: '/videos/usual/chudo-1.mp4',
+    thumbnail: '/thumbnails/chudo-1.jpg',
+  },
+  {
+    title: 'Обыкновенное чудо. 2 серия',
+    category: 'Сказка',
+    categoryId: 'melodramas',
+    duration: '01:25:19',
+    video: '/videos/usual/chudo-2.mp4',
+    thumbnail: '/thumbnails/chudo-2.jpg',
+  },
 ]

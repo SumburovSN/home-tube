@@ -263,4 +263,12 @@ export const kids_movie_fairy_tales = [
       video: '/videos/movies-kids/nutcracker-ballet.webm',
       thumbnail: '/thumbnails/nutcracker-ballet.jpg',
     },
+    {
+      title: 'Огонь, вода и медные трубы',
+      category: 'Сказки',
+      categoryId: 'kids-movie-fairy-tales',
+      duration: '01:47:07',
+      video: '/videos/movies-kids/fire-water.webm',
+      thumbnail: '/thumbnails/fire-water.jpg',
+    },
 ]

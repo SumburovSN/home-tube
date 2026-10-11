@@ -1,5 +1,13 @@
 export const chukovsky = [
   {
+    title: 'Доктор Айболит',
+    category: 'Сказки',
+    categoryId: 'chukovsky',
+    duration: '01:04:08',
+    video: '/videos/chukovsky/aibolit.mp4',
+    thumbnail: '/thumbnails/aibolit.jpg',
+  },
+  {
     title: 'Муха-цокотуха',
     category: 'Сказки',
     categoryId: 'chukovsky',
