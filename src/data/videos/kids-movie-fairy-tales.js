@@ -268,7 +268,7 @@ export const kids_movie_fairy_tales = [
       category: 'Сказки',
       categoryId: 'kids-movie-fairy-tales',
       duration: '01:47:07',
-      video: '/videos/movies-kids/fire-water.webm',
+      video: '/videos/movies-kids/fire-water.mp4',
       thumbnail: '/thumbnails/fire-water.jpg',
     },
 ]
