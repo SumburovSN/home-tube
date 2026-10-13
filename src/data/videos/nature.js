@@ -31,4 +31,12 @@ export const nature = [
       video: '/videos/four-friends/gizn-druzey4.mp4',
       thumbnail: '/thumbnails/gizn-druzey4.jpg',
     },
+    {
+      title: 'Чудесные времена года. Самые живописные места нашей планеты. BBC',
+      category: 'О природе и животных',
+      categoryId: 'nature',
+      duration: '02:35:02',
+      video: '/videos/nature/wonderful-seasons.webm',
+      thumbnail: '/thumbnails/wonderful-seasons.jpg',
+    },
 ]
