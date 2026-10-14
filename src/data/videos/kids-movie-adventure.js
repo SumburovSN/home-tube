@@ -219,8 +219,8 @@ export const kids_movie_adventures = [
       title: 'Три толстяка',
       category: 'Приключения',
       categoryId: 'kids-movie-adventures',
-      duration: '02:14:57',
-      video: '/videos/petrov-vasechkin/3-tolstiaka.webm',
+      duration: '01:26:20',
+      video: '/videos/movies-kids/3-tolstiaka.mp4',
       thumbnail: '/thumbnails/3-tolstiaka.jpg',
     },
 ]

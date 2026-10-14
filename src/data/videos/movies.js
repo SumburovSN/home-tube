@@ -143,4 +143,12 @@ export const movies = [
     video: '/videos/movies/ah-vodevil.mp4',
     thumbnail: '/thumbnails/ah-vodevil.jpg',
   },
+  {
+    title: 'Карнавальная ночь',
+    category: 'Комедия',
+    categoryId: 'comedies',
+    duration: '01:16:06',
+    video: '/videos/movies/carneval-night.webm',
+    thumbnail: '/thumbnails/carneval-night.jpg',
+  },  
 ]
