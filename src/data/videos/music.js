@@ -5,7 +5,7 @@ export const music = [
     categoryId: 'music',
     duration: '07:33:13',
     video: '/videos/music/circus-1982-1984.mkv',
-    thumbnail: '/thumbnails/Circus-1982-1984.jpg',
+    thumbnail: '/thumbnails/circus-1982-1984.jpg',
   },
   {    
     title: 'Blondie - Heart Of Glass',
