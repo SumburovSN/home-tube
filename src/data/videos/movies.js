@@ -127,4 +127,20 @@ export const movies = [
     video: '/videos/usual/chudo-2.mp4',
     thumbnail: '/thumbnails/chudo-2.jpg',
   },
+  {
+    title: 'Чародеи',
+    category: 'Комедия',
+    categoryId: 'comedies',
+    duration: '02:26:23',
+    video: '/videos/movies/charodei.webm',
+    thumbnail: '/thumbnails/charodei.jpg',
+  },
+  {
+    title: 'Ах, водевиль, водевиль',
+    category: 'Комедия',
+    categoryId: 'comedies',
+    duration: '01:04:29',
+    video: '/videos/movies/ah-vodevil.mp4',
+    thumbnail: '/thumbnails/ah-vodevil.jpg',
+  },
 ]
