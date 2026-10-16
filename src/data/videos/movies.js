@@ -150,5 +150,13 @@ export const movies = [
     duration: '01:16:06',
     video: '/videos/movies/carneval-night.webm',
     thumbnail: '/thumbnails/carneval-night.jpg',
+  },
+  {
+    title: 'Тот самый Мюнхгаузен',
+    category: 'Комедия',
+    categoryId: 'comedies',
+    duration: '02:14:07',
+    video: '/videos/movies/tot-munhgausen.webm',
+    thumbnail: '/thumbnails/tot-munhgausen.jpg',
   },  
 ]
