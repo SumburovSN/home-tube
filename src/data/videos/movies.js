@@ -158,5 +158,13 @@ export const movies = [
     duration: '02:14:07',
     video: '/videos/movies/tot-munhgausen.webm',
     thumbnail: '/thumbnails/tot-munhgausen.jpg',
-  },  
+  },
+  {
+    title: 'Мама Миа',
+    category: 'Мюзикл',
+    categoryId: 'musicals',
+    duration: '01:44:44',
+    video: '/videos/movies/mamma-mia.mp4',
+    thumbnail: '/thumbnails/mamma-mia.jpg',
+  },
 ]

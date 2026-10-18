@@ -303,6 +303,14 @@ export const categories = [
   },
 
   {
+    id: 'musicals',
+    title: 'Мюзиклы',
+    icon: '🎩',
+    type: 'movie',
+    parentId: 'movies',
+  },
+
+  {
     id: 'series',
     title: 'Сериалы',
     icon: '📺',

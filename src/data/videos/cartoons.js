@@ -268,7 +268,15 @@ export const cartoons = [
     category: 'Сказки',
     categoryId: 'cartoons',
     duration: '09:56',
-    video: '/videos/ezhik-v-tumane.mp4',
+    video: '/videos/cartoons/ezhik-v-tumane.mp4',
     thumbnail: '/thumbnails/ezhik-v-tumane.jpg',
+  },
+  {
+    title: 'Заколдованный мальчик',
+    category: 'Сказки',
+    categoryId: 'cartoons',
+    duration: '42:51',
+    video: '/videos/cartoons/nils.mp4',
+    thumbnail: '/thumbnails/nils.jpg',
   },
 ]
