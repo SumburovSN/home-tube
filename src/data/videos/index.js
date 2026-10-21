@@ -30,6 +30,7 @@ import { music } from './music.js';
 import { educational } from './educate.js';
 import { potter } from './potter.js';
 import { my } from './my.js';
+import { series } from './series.js';
 
 import { createVideoCatalog } from '../videoUtils';
 
@@ -67,4 +68,5 @@ export const videos = createVideoCatalog(
   educational,
   potter,
   my,
+  series,
 );
