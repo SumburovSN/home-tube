@@ -31,6 +31,7 @@ import { educational } from './educate.js';
 import { potter } from './potter.js';
 import { my } from './my.js';
 import { series } from './series.js';
+import { luntik } from './luntik.js'
 
 import { createVideoCatalog } from '../videoUtils';
 
@@ -69,4 +70,5 @@ export const videos = createVideoCatalog(
   potter,
   my,
   series,
+  luntik,
 );

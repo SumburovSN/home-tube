@@ -143,6 +143,14 @@ export const categories = [
     parentId: 'cartoon-fairy-tales',
   },
 
+  {
+    id: 'luntik',
+    title: 'Лунтик',
+    icon: '🟣',
+    type: 'cartoon',
+    parentId: 'cartoons',
+  },
+
   // Мультики → Приключения
   {
     id: 'cartoon-adventures',
