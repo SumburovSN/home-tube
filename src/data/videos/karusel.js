@@ -64,6 +64,14 @@ export const karusel = [
     thumbnail: '/thumbnails/karusel.8.jpg',
   },
   {
+    title: 'Карусель. Выпуск 9',
+    category: 'Карусель',
+    categoryId: 'karusel',
+    duration: '09:27',
+    video: '/videos/karusel/karusel.9.mp4',
+    thumbnail: '/thumbnails/karusel.9.jpg',
+  },
+  {
     title: 'Карусель. Выпуск 10',
     category: 'Карусель',
     categoryId: 'karusel',

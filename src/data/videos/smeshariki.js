@@ -1172,7 +1172,7 @@ export const smeshariki = [
     category: 'Смешарики',
     categoryId: 'smeshariki',
     duration: '12:31',
-    video: '/videos/smeshariki/151-152.new-year-fairy-tale_ns.mp4',
+    video: '/videos/smeshariki/151-152.new-year-fairy-tale.mp4',
     thumbnail: '/thumbnails/151-152.new-year-fairy-tale.jpg',
   },
   {

@@ -279,4 +279,12 @@ export const cartoons = [
     video: '/videos/cartoons/nils.mp4',
     thumbnail: '/thumbnails/nils.jpg',
   },
+  {
+    title: 'Чиполлино',
+    category: 'Сказки',
+    categoryId: 'cartoons',
+    duration: '39:16',
+    video: '/videos/cartoons/chipollino.mp4',
+    thumbnail: '/thumbnails/chipollino.jpg',
+  },
 ]
